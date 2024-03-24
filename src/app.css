@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.weather_blok {
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  width: 700px;
+}
+.error {
+  color: red;
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    text-align: center;
+  }
+}

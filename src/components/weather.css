@@ -1,0 +1,21 @@
+.show_discriptions {
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+h2 {
+  font-size: 40px;
+}
+.p_temp {
+  font-weight: bold;
+  font-size: 45px;
+}
+p {
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  h2 {
+    line-height: 50px;
+  }
+}
